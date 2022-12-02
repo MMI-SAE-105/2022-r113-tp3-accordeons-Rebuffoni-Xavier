@@ -1,0 +1,12 @@
+#onglets {
+    position: relative;
+}
+
+[role="tabpanel"] {
+    position: abolute;
+    opacity: 0;
+}
+
+[role="tabpanel"].actif {
+    opacity: 1;
+}
